@@ -11,6 +11,9 @@ class Counter:
 
     def decrease(self):
         self.value = self.value - 1
+    
+    def set(self, value):
+        self.value = value
 
     def reset(self):
         self.value = self._initial_value
